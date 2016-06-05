@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/pure-servlet-demo/pure-servlet-demo.iml" filepath="$PROJECT_DIR$/pure-servlet-demo/pure-servlet-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-core/smart-core.iml" filepath="$PROJECT_DIR$/smart-core/smart-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-framework.iml" filepath="$PROJECT_DIR$/smart-framework.iml" />
     </modules>
   </component>

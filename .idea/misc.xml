@@ -48,6 +48,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pure-servlet-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/smart-core/pom.xml" />
       </list>
     </option>
   </component>

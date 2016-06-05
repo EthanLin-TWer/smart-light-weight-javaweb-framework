@@ -24,10 +24,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="pure-servlet-demo" />
+        <module name="smart-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pure-servlet-demo" target="1.8" />
+      <module name="smart-core" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
