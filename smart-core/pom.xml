@@ -10,7 +10,6 @@
 
     <name>smart-core</name>
 
-
     <properties>
         <project.source.sourceEncoding>UTF-8</project.source.sourceEncoding>
     </properties>
