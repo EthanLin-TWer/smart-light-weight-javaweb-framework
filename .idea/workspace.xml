@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5abb715a-d2f6-46b5-91ab-3dd0052928b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/Bootstrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-core/src/test/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-core/src/test/resources/smart.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-core/smart-core.iml" afterPath="$PROJECT_DIR$/smart-core/smart-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReader.java" afterPath="$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReader.java" />
     </list>
     <ignored path="smart-framework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,13 +47,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreConfigurationReader.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CoreConfigurationReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="method#initCoreConfigurationFromPropertyFile#0;class#CoreConfigurationReader#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoreConfigurationReaderTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoreConfigurationReaderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smart-core/src/test/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="220">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +135,8 @@
         <option value="$PROJECT_DIR$/smart-core/pom.xml" />
         <option value="$PROJECT_DIR$/smart-core/src/test/resources/smart.properties" />
         <option value="$PROJECT_DIR$/smart-core/src/test/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReaderTest.java" />
-        <option value="$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReader.java" />
         <option value="$PROJECT_DIR$/smart-core/src/main/resources/smart.properties" />
+        <option value="$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReader.java" />
       </list>
     </option>
   </component>
@@ -481,6 +479,7 @@
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.1.0/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -1188,7 +1187,7 @@
       <workItem from="1465142684590" duration="3121000" />
       <workItem from="1465145883174" duration="1177000" />
       <workItem from="1465274450096" duration="1166000" />
-      <workItem from="1465381364450" duration="1885000" />
+      <workItem from="1465381364450" duration="2244000" />
     </task>
     <servers />
   </component>
@@ -1211,8 +1210,8 @@
     <history-entry file="CoreConfigurationReaderTest_should_read_base_package_configuration - 2016.06.09 at 17h 46m 35s.xml">
       <configuration name="CoreConfigurationReaderTest.should_read_base_package_configuration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerListServletTest - 2016.06.06 at 01h 07m 29s.xml">
-      <configuration name="CustomerListServletTest" configurationId="JUnit" />
+    <history-entry file="CoreConfigurationReaderTest_should_read_base_package_configuration - 2016.06.09 at 17h 46m 50s.xml">
+      <configuration name="CoreConfigurationReaderTest.should_read_base_package_configuration" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CustomerListServletTest_should_call_customer_service_to_get_a_list_of_customers - 2016.06.06 at 01h 06m 22s.xml">
       <configuration name="CustomerListServletTest.should_call_customer_service_to_get_a_list_of_customers" configurationId="JUnit" />
@@ -1225,7 +1224,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7349000" />
+    <option name="totallyTimeSpent" value="7708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="896" extended-state="6" />
@@ -1241,7 +1240,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1437,22 +1436,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReader.java">
+    <entry file="file://$PROJECT_DIR$/smart-core/src/test/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart-core/src/test/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/CoreConfigurationReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="396">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="method#initCoreConfigurationFromPropertyFile#0;class#CoreConfigurationReader#0" expanded="false" />
           </folding>
         </state>
       </provider>
