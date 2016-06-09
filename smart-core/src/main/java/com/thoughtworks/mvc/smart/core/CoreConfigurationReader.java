@@ -37,7 +37,7 @@ public class CoreConfigurationReader {
         return (String) smartCoreConfiguration.get(SMART_FRAMEWORK_PROPERTY_PREFIX + "base-package");
     }
 
-    public String getJspPath() {
+    String getJspPath() {
         return (String) smartCoreConfiguration.get(SMART_FRAMEWORK_PROPERTY_PREFIX + "jsp-path");
     }
 
