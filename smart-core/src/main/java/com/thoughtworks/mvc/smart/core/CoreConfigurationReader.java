@@ -33,9 +33,13 @@ public class CoreConfigurationReader {
         }
     }
 
-    public String getBasePackage() {
+    String getBasePackage() {
         return (String) smartCoreConfiguration.get(SMART_FRAMEWORK_PROPERTY_PREFIX + "base-package");
     }
 
-    public static final String SMART_FRAMEWORK_PROPERTY_PREFIX = "smart.framework.app.";
+    public String getJspPath() {
+        return (String) smartCoreConfiguration.get(SMART_FRAMEWORK_PROPERTY_PREFIX + "jsp-path");
+    }
+
+    private static final String SMART_FRAMEWORK_PROPERTY_PREFIX = "smart.framework.app.";
 }
