@@ -1,4 +1,10 @@
+# Root
+out/
+
 # Maven
 pure-servlet-demo/target/
 smart-core/target/
+
+# Gradle
 spring-mvc-demo/build/
+
