@@ -30,6 +30,8 @@
     <bytecodeTargetLevel>
       <module name="pure-servlet-demo" target="1.8" />
       <module name="smart-core" target="1.5" />
+      <module name="spring-mvc-demo_main" target="1.5" />
+      <module name="spring-mvc-demo_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
