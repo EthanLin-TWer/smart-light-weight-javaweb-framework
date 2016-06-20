@@ -1,5 +1,6 @@
 node () {
     stage 'Run tests'
-    env.PATH = "${tool 'Maven 3'}/bin:${env.PATH}"
+    def mavenHome = tool("M3")
+    env.PATH = "${mavenHome}/bin:${env.PATH}"
     sh 'mvn test'
 }
