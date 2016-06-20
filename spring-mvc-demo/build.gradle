@@ -7,12 +7,23 @@ apply plugin: 'war'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
+sourceSets {
+    main {
+        java { srcDir 'src/main/java' }
+        resources { srcDir 'src/main/resources' }
+    }
+    test {
+        java { srcDir 'src/test/java '}
+        resources { srcDir 'src/test/resources' }
+    }
+}
+
 repositories {
     jcenter()
 }
 
 dependencies {
-    runtime 'org.springframework:spring-webmvc:4.2.4.RELEASE'
+    compile 'org.springframework:spring-webmvc:4.2.4.RELEASE'
     runtime 'javax.servlet:javax.servlet-api:3.1.0'
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-all:1.9.5'
