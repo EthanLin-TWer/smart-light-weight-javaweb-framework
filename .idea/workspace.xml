@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5abb715a-d2f6-46b5-91ab-3dd0052928b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jenkinsfile.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/core/SmartDispatcherServlet.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/smart-core/src/main/java/com/thoughtworks/mvc/smart/Bootstrapper.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/pure_servlet_demo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pure_servlet_demo_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pure-servlet-demo/pom.xml" afterPath="$PROJECT_DIR$/pure-servlet-demo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pure-servlet-demo/pure-servlet-demo.iml" afterPath="$PROJECT_DIR$/pure-servlet-demo/pure-servlet-demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jenkinsfile.groovy" afterPath="$PROJECT_DIR$/Jenkinsfile.groovy" />
     </list>
     <ignored path="smart-framework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +33,8 @@
       <file leaf-file-name="Jenkinsfile.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="88">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -956,7 +941,7 @@
       <workItem from="1466147863031" duration="903000" />
       <workItem from="1466150146208" duration="1591000" />
       <workItem from="1466391454335" duration="15000" />
-      <workItem from="1466391476687" duration="168000" />
+      <workItem from="1466391476687" duration="455000" />
     </task>
     <servers />
   </component>
@@ -993,7 +978,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20976000" />
+    <option name="totallyTimeSpent" value="21263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="896" extended-state="6" />
@@ -1351,8 +1336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
