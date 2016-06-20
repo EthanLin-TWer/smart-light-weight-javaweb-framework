@@ -1,4 +1,4 @@
-node ('test') {
+node ('main') {
 
     stage 'Say Hello'
     echo 'hello from pipeline'
