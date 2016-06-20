@@ -9,16 +9,14 @@
         <webroots>
           <root url="file://$MODULE_DIR$/../../spring-mvc-demo/src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/../../spring-mvc-demo/src/main/java" />
-          <root url="file://$MODULE_DIR$/../../spring-mvc-demo/src/main/resources" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../spring-mvc-demo">
+      <sourceFolder url="file://$MODULE_DIR$/../../spring-mvc-demo/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../spring-mvc-demo/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../spring-mvc-demo/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../spring-mvc-demo/build" />
     </content>
