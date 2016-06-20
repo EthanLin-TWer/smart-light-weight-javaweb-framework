@@ -8,5 +8,6 @@ node ('main') {
 
     def mavenHome = tool("Maven 3")
     env.PATH = "${mavenHome}/bin:${env.PATH}"
+    sh 'cd ./pure-servlet-demo'
     sh 'mvn test'
 }
