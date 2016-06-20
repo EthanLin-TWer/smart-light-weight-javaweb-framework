@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/pure-servlet-demo/pure-servlet-demo.iml" filepath="$PROJECT_DIR$/pure-servlet-demo/pure-servlet-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-core/smart-core.iml" filepath="$PROJECT_DIR$/smart-core/smart-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/smart-framework.iml" filepath="$PROJECT_DIR$/smart-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" filepath="$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" />
     </modules>
   </component>
 </project>

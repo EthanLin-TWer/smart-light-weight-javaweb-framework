@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'war'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.14'
+    compile 'org.springframework:spring-webmvc:4.2.4.RELEASE'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-all:1.9.5'
+}
